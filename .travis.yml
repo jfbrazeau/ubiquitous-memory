@@ -19,7 +19,7 @@ env:
     - GOROOT="${HOME}/${GOV}/go"
     - PATH="${GOROOT}/bin:${PATH}:${GOPATH}/bin"
     - SRCROOT="${GOPATH}/src/github.com/mattermost"
-    - GOARM=7
+    - GOARM=6
   matrix:
     - V=4.6.2
 before_install:
